@@ -1,11 +1,9 @@
 import React from "react"
+import Scene from "../components/scene"
 import Layout from "../components/layout"
 
 export default () => (
 <Layout>
-    <h1>Hello World!</h1>
-    <p>
-        My name is Philipp and i like to code.
-    </p>
+<Scene />
 </Layout>
 )
